@@ -1,5 +1,5 @@
 # theteacozy
-The Tea Cozy Project (website)
+Study Project - The Tea Cozy website (HTML/CSS).
 
 Individual project with a spec given in a HTML/CSS course.
 

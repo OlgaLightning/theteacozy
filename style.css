@@ -134,7 +134,7 @@ h4 {
         flex-wrap: wrap;
         align-content: center;
         height: 280px;
-        width: 800px;
+        width: 100%;
     }
 
     .header {
@@ -186,22 +186,26 @@ h4 {
     @media all and (max-width:500px) {
 
         .navbar {
-            width: 500px;
+            max-width: 500px;
         }
         
         .header {
-            width: 500px;
+            max-width: 500px;
         }
 
         .month {
-            width: 500px;
+            max-width: 500px;
         }
     
         .locations {
-            width: 500px;
+            max-width: 500px;
         }
 
         footer {
-            width: 500px;
+            max-width: 500px;
+        }
+        
+        h5 {
+            color: seashell;
         }
     }

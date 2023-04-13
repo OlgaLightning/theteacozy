@@ -185,8 +185,12 @@ h4 {
 
     @media all and (max-width:500px) {
 
+        body {
+            width: 500px;
+        }
+        
         .navbar {
-            max-width: 500px;
+            max-width: 100%;
         }
         
         .header {
@@ -205,7 +209,7 @@ h4 {
             max-width: 500px;
         }
         
-        h5 {
+        .phone {
             color: seashell;
         }
     }

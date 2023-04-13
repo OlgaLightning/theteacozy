@@ -10,8 +10,12 @@ body {
     justify-content: flex-end;
     height: 69px;
     border-bottom: 1px solid seashell;
-    position: sticky;
+    position: fixed;
     top: 0px;
+    left: 5px;
+    right: 5px;
+    z-index: 1;
+    background-color: #000;
 }
 
 .nav {
@@ -27,13 +31,14 @@ body {
 }
 
 .header {
-    background-image: url(mission-background.webp);
+    background-image: url(./photos/mission-background.webp);
     height: 700px;
     width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-top: 70px;
 }
 
 .centralrow {
@@ -69,7 +74,7 @@ figure {
 }
 
 .locations {
-    background-image: url(locations-background.jpg);
+    background-image: url(./photos/locations-background.jpg);
     width: 1200px;
     height: 500px;
     padding-top: 40px;
@@ -96,6 +101,7 @@ footer {
     text-align: center;
     height: 200px;
     line-height: 30px;
+    margin: 0 auto;
 }
 
 .f-left {
@@ -118,4 +124,49 @@ h3 {
 
 h4 {
     font-size: 20px;
+}
+
+@media all and (max-width:800px) {
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 280px;
+    }
+
+    .header {
+        width: 800px;
+        margin-top: 281px;
+    }
+
+    .month {
+        width: 600px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .locations {
+        max-width: 800px;
+        height: 750px;
+        padding-top: 20px;
+    }
+
+    .locations-boxes {
+        flex-direction: column;
+    }
+
+    .blackbox {
+        width: 250px;
+        height: 200px;
+        line-height: 20px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    footer {
+        width: 800px;
+    }
+
 }

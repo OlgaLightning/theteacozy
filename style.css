@@ -133,6 +133,7 @@ h4 {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
+        position: static;
         height: 280px;
         width: 100%;
     }
@@ -187,7 +188,6 @@ h4 {
         
         .navbar {
             max-width: 500px;
-            position: static;
         }
         
         .header {

@@ -186,29 +186,25 @@ h4 {
     @media all and (max-width:500px) {
         
         html, body {width: auto!important; overflow-x: hidden!important}
-        
+    
         .navbar {
-            max-width: 500px;
+            width: 100%;
         }
-        
+    
         .header {
-            max-width: 500px;
-        }
-        
-        .centralrow {
-            max-width: 500px;
+            width: 100%;
         }
 
         .month {
-            max-width: 500px;
+            width: 100%;
         }
-    
+
         .locations {
-            max-width: 500px;
+            width: 100%;
         }
 
         footer {
-            max-width: 500px;
+            width: 100%;
         }
         
         .phone {

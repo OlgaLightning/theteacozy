@@ -185,28 +185,32 @@ h4 {
 
     @media all and (max-width:500px) {
         
+        html {
+            overflow-x: hidden;
+        }
+        
         .navbar {
-            max-width: 480px;
+            max-width: 500px;
         }
         
         .header {
-            max-width: 480px;
+            max-width: 500px;
         }
         
         .centralrow {
-            max-width: 480px;
+            max-width: 500px;
         }
 
         .month {
-            max-width: 480px;
+            max-width: 500px;
         }
     
         .locations {
-            max-width: 480px;
+            max-width: 500px;
         }
 
         footer {
-            max-width: 480px;
+            max-width: 500px;
         }
         
         .phone {

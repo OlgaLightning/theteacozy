@@ -133,7 +133,6 @@ h4 {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
-        position: static;
         height: 280px;
         width: 100%;
     }
@@ -187,27 +186,27 @@ h4 {
     @media all and (max-width:500px) {
         
         .navbar {
-            max-width: 500px;
+            max-width: 480px;
         }
         
         .header {
-            max-width: 500px;
+            max-width: 480px;
         }
         
         .centralrow {
-            max-width: 500px;
+            max-width: 480px;
         }
 
         .month {
-            max-width: 500px;
+            max-width: 480px;
         }
     
         .locations {
-            max-width: 500px;
+            max-width: 480px;
         }
 
         footer {
-            max-width: 500px;
+            max-width: 480px;
         }
         
         .phone {

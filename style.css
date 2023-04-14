@@ -196,6 +196,10 @@ h4 {
         .header {
             max-width: 500px;
         }
+        
+        .centralrow {
+            max-width: 500px;
+        }
 
         .month {
             max-width: 500px;

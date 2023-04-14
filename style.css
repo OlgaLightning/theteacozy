@@ -187,6 +187,7 @@ h4 {
         
         .navbar {
             max-width: 500px;
+            position: static;
         }
         
         .header {

@@ -138,24 +138,27 @@ h4 {
     }
 
     .header {
-        width: 800px;
+        width: 100%;
         margin-top: 281px;
     }
 
     .month {
-        width: 800px;
+        width: 100%;
         margin: 0 auto;
-        flex-wrap: wrap;
     }
 
     .locations {
-        max-width: 800px;
-        height: 750px;
-        padding-top: 20px;
+        max-width: 100%;
+        height: 100%;
+        padding: 20px 0;
     }
 
     .locations-boxes {
         flex-direction: column;
+    }
+
+    .loc {
+        color: #000000;
     }
 
     .blackbox {
@@ -167,47 +170,14 @@ h4 {
     }
 
     footer {
-        width: 800px;
+        width: 100%;
     }
 
     h2 {
         font-size: 25px;
     }
         
-    h3 {
-        font-size: 20px;
-    }
-        
-    h4 {
+    h3, h4 {
         font-size: 20px;
     }
 }
-
-    @media all and (max-width:500px) {
-        
-        html, body {width: auto!important; overflow-x: hidden!important}
-    
-        .navbar {
-            width: 100%;
-        }
-    
-        .header {
-            width: 100%;
-        }
-
-        .month {
-            width: 100%;
-        }
-
-        .locations {
-            width: 100%;
-        }
-
-        footer {
-            width: 100%;
-        }
-        
-        .phone {
-            color: seashell;
-        }
-    }

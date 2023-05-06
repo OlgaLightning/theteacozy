@@ -8,37 +8,45 @@ body {
 .navbar {
     display: flex;
     justify-content: flex-end;
-    height: 69px;
-    border-bottom: 1px solid seashell;
+    overflow: hidden;
     position: fixed;
-    top: 0px;
-    left: 5px;
-    right: 5px;
+    top: 0;
     z-index: 1;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
     background-color: #000;
 }
 
 .nav {
+    display: block;
+    padding-right: 20px;
     padding-left: 20px;
     font-size: 22px;
     color: seashell;
 }
 
+.nav:hover {
+    background-color: seashell;
+    color: #000;
+    text-decoration: none;
+}
+
 .logo {
+    margin-top: 5px;
     margin-right: auto;
     margin-left: 10px;
     opacity: 0.9;
 }
 
 .header {
-    background-image: url(mission-background.webp);
+    background-image: url(./photos/mission-background.webp);
     height: 700px;
     width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 70px;
 }
 
 .centralrow {
@@ -74,7 +82,7 @@ figure {
 }
 
 .locations {
-    background-image: url(locations-background.jpg);
+    background-image: url(./photos/locations-background.jpg);
     width: 1200px;
     height: 500px;
     padding-top: 40px;
@@ -128,18 +136,8 @@ h4 {
 
 @media all and (max-width:800px) {
 
-    .navbar {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        height: 280px;
-        width: 100%;
-    }
-
     .header {
-        width: 100%;
-        margin-top: 281px;
+        width: 94%;
     }
 
     .month {
@@ -148,13 +146,13 @@ h4 {
     }
 
     .locations {
-        max-width: 100%;
+        max-width: 90%;
         height: 100%;
         padding: 20px 0;
     }
 
     .locations-boxes {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .loc {
@@ -180,4 +178,18 @@ h4 {
     h3, h4 {
         font-size: 20px;
     }
+}
+
+@media all and (max-width:500px) {
+
+    .logo {
+        position: relative;
+        left: 100px;
+        right: 100px;
+    }
+
+    .hidden {
+        display: none;
+    }
+    
 }

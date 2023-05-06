@@ -40,7 +40,7 @@ body {
 }
 
 .header {
-    background-image: url(./photos/mission-background.webp);
+    background-image: url(mission-background.webp);
     height: 700px;
     width: 1200px;
     display: flex;
@@ -82,7 +82,7 @@ figure {
 }
 
 .locations {
-    background-image: url(./photos/locations-background.jpg);
+    background-image: url(locations-background.jpg);
     width: 1200px;
     height: 500px;
     padding-top: 40px;
